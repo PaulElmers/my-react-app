@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+.container {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+  background-color: #0056b3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input, textarea {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+}
+
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.todo-list li {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.hidden-text {
+  display: none;
+}
+
+.slider-value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.sum-display {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.registration-form input {
+  margin-bottom: 10px;
+}
+
+.tab-buttons button {
+  margin-right: 5px;
+}
+
+.active-tab {
+  font-weight: bold;
+  background-color: #007bff;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.video-container video {
+  width: 100%;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.voting-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.voting-buttons button {
+  margin: 0 10px;
+}
+
+.feedback-form textarea {
+  min-height: 100px;
+}
+.language-switcher button {
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
+.date-picker input {
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-button {
+  background-color: #ffc107;
+  color: black;
+}
+
+.char-counter {
+  font-size: 16px;
+  color: #555;
+}
+
+.meme-gallery img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.like-button {
+  margin-top: 10px;
 }
